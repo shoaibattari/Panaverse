@@ -1,11 +1,10 @@
-"use client";
+"use client"
 
-import { Button} from '@chakra-ui/react';
+import Header from '@/components/Header'
 
-export default function Home() {
+export default function page() {
   return (
-    <div>
-          <Button colorScheme='blue'>Hello World from Panaverse DAO!</Button>
-    </div>
+    <Header />
+
   )
 }
