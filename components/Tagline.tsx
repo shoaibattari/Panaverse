@@ -1,4 +1,4 @@
-import { Box, Image, LinkBox, LinkOverlay, Text } from "@chakra-ui/react";
+import { Box, Image, LinkBox, Text } from "@chakra-ui/react";
 import React from "react";
 import NextLink from "next/link";
 
@@ -22,16 +22,19 @@ function Tagline() {
         startup founders and service providers.
       </Text>
 
-      <LinkBox>
+      <LinkBox as="article">
         <NextLink href="https://www.piaic.org/">
-          <LinkOverlay>
-            <Text fontSize="2xl" textColor="blue.500" p="3">
+            <Text fontSize="2xl" textColor="blue.500" p="3" >
               Admissions Now Open in Karachi, Lahore, Islamabad, and Peshawar
             </Text>
-          </LinkOverlay>
         </NextLink>
       </LinkBox>
+
+<hr />
+
     </Box>
+
+    
   );
 }
 
