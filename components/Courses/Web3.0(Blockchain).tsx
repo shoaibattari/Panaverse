@@ -35,7 +35,7 @@ function DevelopingSmartContracts() {
     </Text>
 
     <SimpleGrid
-      mt="-480"
+      mt="-500"
       spacing={0.2}
       templateColumns="repeat(auto-fill, minmax(250px, 1fr))"
     >

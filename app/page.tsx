@@ -5,7 +5,9 @@ import Tagline from '@/components/Tagline'
 import CoreCourses from '@/components/Courses/CoreCourses'
 
 import { Box } from '@chakra-ui/react'
-import DevelopingSmartContracts from '@/components/Courses/DevelopingSmartContracts'
+import Web3Blockchain from '@/components/Courses/Web3.0(Blockchain)'
+import WebBlockchainandMetaverseSpecialization from '@/components/Courses/Web3.0(AI.DL)'
+import CloudNativeComputingSpecialization from '@/components/Courses/Web3.0(CloudNativeComputing)'
 
 export default function page() {
   return (
@@ -14,7 +16,9 @@ export default function page() {
     <Header />
     <Tagline />
     <CoreCourses />
-    <DevelopingSmartContracts />
+    <Web3Blockchain />
+    <WebBlockchainandMetaverseSpecialization />
+    <CloudNativeComputingSpecialization />
     </Box>
   )
 }
