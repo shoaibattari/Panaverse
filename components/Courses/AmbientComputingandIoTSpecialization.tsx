@@ -11,12 +11,14 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 
-function WebBlockchainandMetaverseSpecialization() {
+function AmbientComputingandIoTSpecialization() {
   return (
-    <Box boxSize="3xl" ml="25%" p="5" mt="-20">
-      <Box as="div" mt="-48">
+    <Box boxSize="3xl" ml="25%" p="5"mt="-60"
+    >
+      <Box as="div"
+      mt="-72">
         <Text fontSize="3xl" align="left" textColor="green.600">
-          Artificial Intelligence (AI) and Deep Learning Specialization
+          Ambient Computing and IoT Specialization{" "}
         </Text>
         <Text
           boxSize="3xl"
@@ -27,9 +29,9 @@ function WebBlockchainandMetaverseSpecialization() {
           align="left"
           textColor="gray.600"
         >
-          The AI and Deep Learning specialization focuses on building and
-          deploying intelligent APIs using OpenAI models and building custom
-          Deep Learning Tensorflow models.
+          The Ambient Computing and IoT Specialization focuses on building Smart
+          Homes, Offices, Factories, and Cities using Voice computing, Matter
+          and Embedded Devices.
         </Text>
 
         <SimpleGrid
@@ -40,8 +42,7 @@ function WebBlockchainandMetaverseSpecialization() {
           <Card>
             <CardHeader>
               <Heading textColor="green.600" size="md">
-              Quarter III W3-351: Developing Smart Contracts and Planet-Scale
-                Web 3.0 Dapps
+              Quarter III CN-351: Certified Kubernetes Application Developer
               </Heading>
             </CardHeader>
             <CardBody></CardBody>
@@ -52,7 +53,7 @@ function WebBlockchainandMetaverseSpecialization() {
           <Card>
             <CardHeader>
               <Heading size="md" textColor="green.600">
-               Quarter IV AI-361: Deep Learning and MLOps
+              Quarter IV AC-361: Embedded Programming using C and Rust
               </Heading>
             </CardHeader>
             <CardBody></CardBody>
@@ -66,4 +67,4 @@ function WebBlockchainandMetaverseSpecialization() {
   );
 }
 
-export default WebBlockchainandMetaverseSpecialization;
+export default AmbientComputingandIoTSpecialization;

@@ -8,6 +8,7 @@ import { Box } from '@chakra-ui/react'
 import Web3Blockchain from '@/components/Courses/Web3.0(Blockchain)'
 import WebBlockchainandMetaverseSpecialization from '@/components/Courses/Web3.0(AI.DL)'
 import CloudNativeComputingSpecialization from '@/components/Courses/Web3.0(CloudNativeComputing)'
+import AmbientComputingandIoTSpecialization from '@/components/Courses/AmbientComputingandIoTSpecialization'
 
 export default function page() {
   return (
@@ -19,6 +20,8 @@ export default function page() {
     <Web3Blockchain />
     <WebBlockchainandMetaverseSpecialization />
     <CloudNativeComputingSpecialization />
+    <AmbientComputingandIoTSpecialization />
+
     </Box>
   )
 }

@@ -4,7 +4,7 @@ import NextLink from "next/link";
 
 function Tagline() {
   return (
-    <Box boxSize="3xl" ml="25%" p="5">
+    <Box boxSize='3xl' ml="25%" p="5" >
       <Text fontSize="4xl" align="center" textColor="green.300">
         Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
         Karachi, Lahore, Islamabad, and Peshawar
@@ -14,7 +14,6 @@ function Tagline() {
         alt="panaverse-logo "
         w="650px"
       />
-
       <Text fontSize="2xl" textColor="green.500" p="3">
         The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
         Panaverse DAO is a movement to spread these technolgies globally. It is
@@ -22,19 +21,16 @@ function Tagline() {
         startup founders and service providers.
       </Text>
 
-      <LinkBox as="article">
+      <LinkBox as="article" >
         <NextLink href="https://www.piaic.org/">
-            <Text fontSize="2xl" textColor="blue.500" p="3" >
-              Admissions Now Open in Karachi, Lahore, Islamabad, and Peshawar
-            </Text>
+          <Text fontSize="2xl" textColor="blue.500" p="3" >
+            Admissions Now Open in Karachi, Lahore, Islamabad, and Peshawar
+          </Text>
         </NextLink>
       </LinkBox>
 
-<hr />
-
+      <hr />
     </Box>
-
-    
   );
 }
 

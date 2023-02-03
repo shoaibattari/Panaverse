@@ -13,10 +13,10 @@ import React from "react";
 
 function CloudNativeComputingSpecialization() {
   return (
-    <Box boxSize="3xl" ml="25%" p="5" mt="-10">
-      <Box as="div" mt="-36">
+    <Box boxSize="3xl" ml="25%" p="5" mt="-20">
+      <Box as="div" mt="-72">
         <Text fontSize="3xl" align="left" textColor="green.600">
-          Artificial Intelligence (AI) and Deep Learning Specialization
+          Cloud-Native Computing Specialization
         </Text>
         <Text
           boxSize="3xl"
@@ -27,9 +27,8 @@ function CloudNativeComputingSpecialization() {
           align="left"
           textColor="gray.600"
         >
-          The AI and Deep Learning specialization focuses on building and
-          deploying intelligent APIs using OpenAI models and building custom
-          Deep Learning Tensorflow models.
+          The Cloud-Native Computing Specialization focuses on Containers,
+          Kubernetes, and CDK for Kubernetes.
         </Text>
 
         <SimpleGrid
@@ -40,8 +39,8 @@ function CloudNativeComputingSpecialization() {
           <Card>
             <CardHeader>
               <Heading textColor="green.600" size="md">
-              Quarter III W3-351: Developing Smart Contracts and Planet-Scale
-                Web 3.0 Dapps
+                Quarter III CN-351: Certified Kubernetes Application Developer
+                (CKAD)
               </Heading>
             </CardHeader>
             <CardBody></CardBody>
@@ -52,7 +51,8 @@ function CloudNativeComputingSpecialization() {
           <Card>
             <CardHeader>
               <Heading size="md" textColor="green.600">
-               Quarter IV AI-361: Deep Learning and MLOps
+                Quarter IV CN-361: Developing Multi-Cloud APIs using CDK for
+                Terraform
               </Heading>
             </CardHeader>
             <CardBody></CardBody>
