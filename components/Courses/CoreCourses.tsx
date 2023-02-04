@@ -1,3 +1,5 @@
+'use client'
+
 import {
   Box,
   Button,
@@ -14,7 +16,13 @@ import React from "react";
 function CoreCourses() {
   return (
     <Box boxSize="3xl" ml="25%" p="5" mt="20">
-      <Text fontSize="4xl" align="center" textColor="green.600">
+      <Text
+        bg="linear-gradient(120deg, #155799, #159957)"
+        fontSize="3xl"
+        align="center"
+        textColor="gray.200"
+        borderRadius="20"
+      >
         Core Courses (Common in All Specializations)
       </Text>
       <Text
@@ -44,7 +52,12 @@ function CoreCourses() {
           </CardHeader>
           <CardBody></CardBody>
           <CardFooter>
-            <Button textColor="blue.500">Detailed Course Syllabus</Button>
+            <Button
+              textColor="blue.500"
+              type="button"
+            >
+              Detailed Course Syllabus
+            </Button>
           </CardFooter>
         </Card>
         <Card>

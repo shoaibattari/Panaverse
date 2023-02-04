@@ -15,7 +15,7 @@ function DevelopingSmartContracts() {
   return (
     <Box boxSize="3xl" ml="25%" p="5" mt="20">
     <Box as="div" mt='-36'>
-    <Text fontSize="3xl" align="left" textColor="green.600">
+    <Text bg="linear-gradient(120deg, #155799, #159957)" fontSize="3xl" align="center" textColor="gray.200" borderRadius='20'>
       Web 3.0 (Blockchain) and Metaverse Specialization
     </Text>
     <Text

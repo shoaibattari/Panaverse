@@ -17,8 +17,8 @@ function AmbientComputingandIoTSpecialization() {
     >
       <Box as="div"
       mt="-72">
-        <Text fontSize="3xl" align="left" textColor="green.600">
-          Ambient Computing and IoT Specialization{" "}
+        <Text bg="linear-gradient(120deg, #155799, #159957)" fontSize="3xl" align="center" textColor="gray.200" borderRadius='20'>
+          Ambient Computing and IoT Specialization
         </Text>
         <Text
           boxSize="3xl"

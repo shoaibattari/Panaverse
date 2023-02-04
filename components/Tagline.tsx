@@ -5,7 +5,7 @@ import NextLink from "next/link";
 function Tagline() {
   return (
     <Box boxSize='3xl' ml="25%" p="5" >
-      <Text fontSize="4xl" align="center" textColor="green.300">
+      <Text  fontSize="4xl" align="center" textColor="green.300">
         Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
         Karachi, Lahore, Islamabad, and Peshawar
       </Text>
