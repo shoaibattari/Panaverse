@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import {
   Box,
@@ -10,6 +10,7 @@ import {
   Heading,
   SimpleGrid,
   Text,
+  Link,
 } from "@chakra-ui/react";
 import React from "react";
 
@@ -52,11 +53,10 @@ function CoreCourses() {
           </CardHeader>
           <CardBody></CardBody>
           <CardFooter>
-            <Button
-              textColor="blue.500"
-              type="button"
-            >
-              Detailed Course Syllabus
+            <Button textColor="blue.500" type="button">
+              <Link color="teal.500" href="/Q1Detail">
+                Detailed Course Syllabus
+              </Link>
             </Button>
           </CardFooter>
         </Card>
@@ -70,7 +70,11 @@ function CoreCourses() {
           </CardHeader>
           <CardBody></CardBody>
           <CardFooter>
-            <Button textColor="blue.500">Detailed Course Syllabus</Button>
+            <Button textColor="blue.500">
+              <Link color="teal.500" href="/Q2Detail">
+                Detailed Course Syllabus
+              </Link>
+            </Button>
           </CardFooter>
         </Card>
       </SimpleGrid>

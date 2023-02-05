@@ -16,6 +16,8 @@ function Q1Detail() {
           color="white"
           m="10px"
         >
+          Quarter I (Core)
+          <br />
           CS-101: Object-Oriented Programming using TypeScript
           <br />
           Duration: 13 Weeks
@@ -150,7 +152,7 @@ function Q1Detail() {
             </Link>
           </Heading>
         </LinkBox>
-        <br />{" "}
+        <br />
         <Text fontSize="2xl" align="center" color="green.500">
           Object-Oriented Programming with TypeScript
         </Text>
@@ -201,7 +203,10 @@ function Q1Detail() {
           </Heading>
         </LinkBox>
         <br />
-       
+        <Text fontSize="2xl" align="center" color="green.500">
+        Fundamentals of Version Control with Git (Recorded Videos)
+        </Text>
+        <br />
         <LinkBox
           as="article"
           maxW="3xl"
@@ -209,12 +214,14 @@ function Q1Detail() {
           textColor="gray.200"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
-        > <Heading size="md" my="3">
-          <Link href="https://chakra-ui.com" >
-            Chakra Design system
-          </Link>
+        >
+          <Heading size="md" my="3">
+            <Link href="https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF">
+            Version Control using Git and GitHub By Sir Zeeshan Hanif (Watch Recorded Videos)
+            </Link>
           </Heading>
         </LinkBox>
+        
     
       </Box>
     </>
