@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import NextLink from "next/link";
 
 import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
+import { Link } from "@chakra-ui/react";
 
 function Q1Detail() {
   return (
@@ -46,9 +46,9 @@ function Q1Detail() {
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6">
+            <Link href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6">
               Learn HTML by Hira Khan (Watch Recorded Videos)
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <br />
@@ -57,15 +57,13 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob">
+            <Link href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob">
               Learn CSS Intro by Hira Khan (Watch Recorded Videos)
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <Text fontSize="2xl" align="center" color="green.500">
@@ -77,15 +75,13 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://docs.google.com/presentation/d/12C1s4UBTlR9nZNEkRE6aAuGeRA3s92jx-8nJKo9jdH4/edit">
+            <Link href="https://docs.google.com/presentation/d/12C1s4UBTlR9nZNEkRE6aAuGeRA3s92jx-8nJKo9jdH4/edit">
               Introduction to Panaverse DAO
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <br />
@@ -94,15 +90,13 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://docs.google.com/presentation/d/1FSbr9aJwO0-fmZHqWy_eHO2N_jwJLmQCy4cG8rd4ctw/edit">
+            <Link href="https://docs.google.com/presentation/d/1FSbr9aJwO0-fmZHqWy_eHO2N_jwJLmQCy4cG8rd4ctw/edit">
               Web 3.0 User Guide
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <Text fontSize="2xl" align="center" color="green.500">
@@ -114,15 +108,13 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://docs.google.com/presentation/d/1ADk87hQ0Etr2PfmN9XH7TQ0CHl6XSP_7JWNUbzPdDNc/edit">
+            <Link href="https://docs.google.com/presentation/d/1ADk87hQ0Etr2PfmN9XH7TQ0CHl6XSP_7JWNUbzPdDNc/edit">
               Virtual and Augmented Metaverse User Guide
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <Text fontSize="2xl" align="center" color="green.500">
@@ -134,15 +126,13 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQdc0NSLknxmxBch5gLOqyo">
+            <Link href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQdc0NSLknxmxBch5gLOqyo">
               Learn JavaScript by Zeeshan Hanif (Watch Recorded Videos)
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <br />
@@ -151,15 +141,13 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md">
+            <Link href="https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md">
               Getting Started Exercises with JavaScript and Node.js
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <br />{" "}
@@ -172,15 +160,13 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://github.com/panaverse/learn-typescript">
+            <Link href="https://github.com/panaverse/learn-typescript">
               Learning Repository TypeScript
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
         <br />
@@ -189,52 +175,47 @@ function Q1Detail() {
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://github.com/panaverse/typescript-node-projects">
+            <Link href="https://github.com/panaverse/typescript-node-projects">
               Homework Project TypeScript
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
+       
         <br />
         <LinkBox
           as="article"
           maxW="3xl"
           p="3"
           textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
           bg="linear-gradient(120deg, #155799, #159957)"
           borderRadius="20px"
         >
           <Heading size="md" my="3">
-            <NextLink href="https://github.com/panaverse/typescript-node-projects">
-              Homework Project TypeScript
-            </NextLink>
-          </Heading>
-        </LinkBox>
-        <br />
-        <LinkBox
-          as="article"
-          maxW="3xl"
-          p="3"
-          textColor="gray.200"
-          borderWidth="1px"
-          rounded="md"
-          bg="linear-gradient(120deg, #155799, #159957)"
-          borderRadius="20px"
-        >
-          <Heading size="md" my="3">
-            <NextLink href="https://profy.dev/article/react-typescript">
+            <Link href="https://profy.dev/article/react-typescript">
               TypeScript for React
-            </NextLink>
+            </Link>
           </Heading>
         </LinkBox>
-        <br /><br /><br />
+        <br />
+       
+        <LinkBox
+          as="article"
+          maxW="3xl"
+          p="3"
+          textColor="gray.200"
+          bg="linear-gradient(120deg, #155799, #159957)"
+          borderRadius="20px"
+        > <Heading size="md" my="3">
+          <Link href="https://chakra-ui.com" >
+            Chakra Design system
+          </Link>
+          </Heading>
+        </LinkBox>
+    
       </Box>
     </>
   );
