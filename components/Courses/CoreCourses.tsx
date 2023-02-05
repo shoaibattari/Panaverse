@@ -11,6 +11,7 @@ import {
   SimpleGrid,
   Text,
   Link,
+  useColorModeValue
 } from "@chakra-ui/react";
 import React from "react";
 
@@ -46,15 +47,22 @@ function CoreCourses() {
       >
         <Card>
           <CardHeader>
-            <Heading textColor="green.600" size="md">
+            <Heading
+              textColor="green.600"
+              size="md"
+             
+            >
               Quarter I (Core) CS-101: Object-Oriented Programming using
               TypeScript
             </Heading>
           </CardHeader>
           <CardBody></CardBody>
           <CardFooter>
-            <Button textColor="blue.500" type="button">
-              <Link color="teal.500" href="/Q1Detail">
+            <Button textColor="blue.500" type="button" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }} >
+              <Link color="teal.500" href="/Q1Detail" >
                 Detailed Course Syllabus
               </Link>
             </Button>
@@ -70,7 +78,10 @@ function CoreCourses() {
           </CardHeader>
           <CardBody></CardBody>
           <CardFooter>
-            <Button textColor="blue.500">
+            <Button textColor="blue.500" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }}>
               <Link color="teal.500" href="/Q2Detail">
                 Detailed Course Syllabus
               </Link>

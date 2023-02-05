@@ -1,9 +1,30 @@
-import React from 'react'
+"use client";
+
+import React from "react";
+
+import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
+import { Link } from "@chakra-ui/react";
 
 function AIQ4() {
   return (
-    <div>AIQ4</div>
-  )
+    <>
+      <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
+        <Text
+          fontWeight="bold"
+          fontSize="5xl"
+          align="center"
+          color="white"
+          m="10px"
+        >
+          Artificial Intelligence and Deep Learning Specialization Quarter 4
+          <br />
+          Duration: 13 Weeks
+          <br />
+          Course Description:
+        </Text>
+      </Box>
+    </>
+  );
 }
 
-export default AIQ4
+export default AIQ4;

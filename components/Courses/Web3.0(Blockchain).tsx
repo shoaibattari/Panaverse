@@ -8,6 +8,7 @@ import {
   Heading,
   SimpleGrid,
   Text,
+  useColorModeValue,Link
 } from "@chakra-ui/react";
 import React from 'react'
 
@@ -48,7 +49,12 @@ function DevelopingSmartContracts() {
         </CardHeader>
         <CardBody></CardBody>
         <CardFooter>
-          <Button textColor="blue.500">Detailed Course Syllabus</Button>
+          <Button textColor="blue.500" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }}>
+                <Link color="teal.500" href="/BCQ3" >
+                Detailed Course Syllabus</Link></Button>
         </CardFooter>
       </Card>
       <Card>
@@ -60,7 +66,11 @@ function DevelopingSmartContracts() {
         </CardHeader>
         <CardBody></CardBody>
         <CardFooter>
-          <Button textColor="blue.500">Detailed Course Syllabus</Button>
+          <Button textColor="blue.500" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }}> <Link color="teal.500" href="/BCQ4" >
+              Detailed Course Syllabus</Link></Button>
         </CardFooter>
       </Card>
     </SimpleGrid>

@@ -8,6 +8,8 @@ import {
   Heading,
   SimpleGrid,
   Text,
+  useColorModeValue,
+  Link
 } from "@chakra-ui/react";
 import React from "react";
 
@@ -45,7 +47,11 @@ function CloudNativeComputingSpecialization() {
             </CardHeader>
             <CardBody></CardBody>
             <CardFooter>
-              <Button textColor="blue.500">Detailed Course Syllabus</Button>
+              <Button textColor="blue.500" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }}><Link color="teal.500" href="/CNQ3" >
+              Detailed Course Syllabus</Link></Button>
             </CardFooter>
           </Card>
           <Card>
@@ -57,7 +63,11 @@ function CloudNativeComputingSpecialization() {
             </CardHeader>
             <CardBody></CardBody>
             <CardFooter>
-              <Button textColor="blue.500">Detailed Course Syllabus</Button>
+              <Button textColor="blue.500" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }}><Link color="teal.500" href="/CNQ4" >
+              Detailed Course Syllabus</Link></Button>
             </CardFooter>
           </Card>
         </SimpleGrid>

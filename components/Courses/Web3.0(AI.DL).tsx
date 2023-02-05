@@ -7,7 +7,9 @@ import {
   CardHeader,
   Heading,
   SimpleGrid,
+  useColorModeValue,
   Text,
+  Link
 } from "@chakra-ui/react";
 import React from "react";
 
@@ -46,7 +48,11 @@ function WebBlockchainandMetaverseSpecialization() {
             </CardHeader>
             <CardBody></CardBody>
             <CardFooter>
-              <Button textColor="blue.500">Detailed Course Syllabus</Button>
+              <Button textColor="blue.500" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }}><Link color="teal.500" href="/AIQ3" >
+              Detailed Course Syllabus</Link></Button>
             </CardFooter>
           </Card>
           <Card>
@@ -57,7 +63,11 @@ function WebBlockchainandMetaverseSpecialization() {
             </CardHeader>
             <CardBody></CardBody>
             <CardFooter>
-              <Button textColor="blue.500">Detailed Course Syllabus</Button>
+              <Button textColor="blue.500" _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue('blue.900', 'blue.200'),
+              }}><Link color="teal.500" href="/AIQ4" >
+              Detailed Course Syllabus</Link></Button>
             </CardFooter>
           </Card>
         </SimpleGrid>

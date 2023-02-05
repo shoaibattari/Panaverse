@@ -1,5 +1,5 @@
 "use client";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 import ChakraWrapper from "../components/Chakra";
 
@@ -13,6 +13,7 @@ export default function RootLayout({
       <head></head>
       <body>
         <ChakraWrapper>
+          {/* <Navbar /> */}
           {children}
           {/* <Footer /> */}
         </ChakraWrapper>
