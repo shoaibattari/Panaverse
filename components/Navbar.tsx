@@ -5,6 +5,7 @@ import {
   BreadcrumbLink,
 } from "@chakra-ui/react";
 import React from "react";
+import Link from 'next/link'
 
 function Navbar() {
   return (
@@ -20,20 +21,20 @@ function Navbar() {
       <Breadcrumb fontWeight="bold" fontSize="2xl" spacing="25px" separator="">
        
         <BreadcrumbItem >
-          <BreadcrumbLink href="/">Home</BreadcrumbLink>
+          <Link href="/">Home</Link>
         </BreadcrumbItem>
         <BreadcrumbItem>
-          <BreadcrumbLink href="/COURSES">Courses</BreadcrumbLink>
-        </BreadcrumbItem>
-
-        <BreadcrumbItem>
-          <BreadcrumbLink href="https://www.piaic.org/">Piaic</BreadcrumbLink>
+          <Link href="/COURSES">Courses</Link>
         </BreadcrumbItem>
 
         <BreadcrumbItem>
-          <BreadcrumbLink href="https://portal.piaic.org/signup">
+          <Link href="https://www.piaic.org/">Piaic</Link>
+        </BreadcrumbItem>
+
+        <BreadcrumbItem>
+          <Link href="https://portal.piaic.org/signup">
             Student Portal
-          </BreadcrumbLink>
+          </Link>
         </BreadcrumbItem>
         </Breadcrumb>
   
