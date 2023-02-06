@@ -7,18 +7,15 @@ function page() {
   return (
     <div>
     
-      <Box bg="linear-gradient(120deg, #155799, #159957)" h="480px" p={"70px"}>
+      <Box bg="linear-gradient(120deg, #155799, #159957)" p={"1px"}>
         <Text
           fontWeight="bold"
-          fontSize="6xl"
+          fontSize="5xl"
           align="center"
           color="white"
           m="10px"
         >
-          Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
-          Karachi, Lahore, Islamabad, and Peshawar
-          <br />
-        
+          
          ALL COURSES DETAILS
         </Text>
       </Box>

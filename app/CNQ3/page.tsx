@@ -4,6 +4,7 @@ import React from "react";
 
 import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/react";
+import Dummy from "@/components/Courses/Dummy";
 
 function CNQ3() {
   return (
@@ -23,6 +24,7 @@ function CNQ3() {
           Course Description:
         </Text>
       </Box>
+      <Dummy />
     </>
   );
 }

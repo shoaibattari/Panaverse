@@ -4,6 +4,7 @@ import React from "react";
 
 import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/react";
+import Dummy from "@/components/Courses/Dummy";
 
 function BlockchainQ4() {
   return (
@@ -24,6 +25,7 @@ function BlockchainQ4() {
           Course Description:
         </Text>
       </Box>
+      <Dummy />
     </>
   );
 }

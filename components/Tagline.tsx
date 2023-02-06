@@ -1,11 +1,12 @@
-import { Box, Image, LinkBox, Text } from "@chakra-ui/react";
+import { Box, Image, LinkBox, Text, Button } from "@chakra-ui/react";
 import React from "react";
 import NextLink from "next/link";
+import ALL from "./Courses/All";
 
 function Tagline() {
   return (
     <Box boxSize='3xl' ml="25%" p="5" >
-      <Text  fontSize="4xl" align="center" textColor="green.300">
+      <Text  fontSize="4xl" align="center" textColor="green.500">
         Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
         Karachi, Lahore, Islamabad, and Peshawar
       </Text>
@@ -29,7 +30,6 @@ function Tagline() {
         </NextLink>
       </LinkBox>
 
-      <hr />
     </Box>
   );
 }

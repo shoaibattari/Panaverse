@@ -10,10 +10,10 @@ import {
   Heading,
   SimpleGrid,
   Text,
-  Link,
+ 
   useColorModeValue,
 } from "@chakra-ui/react";
-
+import  Link from 'next/link'
 import React from "react";
 
 function ALL() {
@@ -201,7 +201,7 @@ function ALL() {
             textColor="gray.200"
             borderRadius="20"
           >
-            Artificial Intelligence (AI) and Deep Learning Specialization
+            AI and Deep Learning Specialization
           </Text>
           <Text
             boxSize="3xl"

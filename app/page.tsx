@@ -7,11 +7,12 @@ import Tagline from "@/components/Tagline";
 import { Box } from "@chakra-ui/react";
 
 export default function page() {
-  return (
+  return (<>
     <Box as="div">
       <Header />/
       <Tagline />
       <ALL />
     </Box>
+    </>
   );
 }

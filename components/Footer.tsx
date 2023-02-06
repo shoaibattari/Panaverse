@@ -8,8 +8,10 @@ function Footer() {
       display="flex"
       justifyContent="space-around"
       bg="linear-gradient(120deg, #155799, #159957)"
-      mt="20"
+      mt="24"
     >
+
+
       <Text
         fontWeight="bold"
         fontSize="6xl"
@@ -19,13 +21,13 @@ function Footer() {
       >
         Relevant Information Links
       </Text>
+
       <Text
         fontSize="md"
         align="center"
         color="gray.100"
         p="25px"
         textDecor="underline"
-  
       >
         <NextLink href="https://www.piaic.org/">Admission Website</NextLink>
         <br />

@@ -1,19 +1,42 @@
-import { Box, Link, Button, useColorModeValue,  } from "@chakra-ui/react";
+import {
+  Box,
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+} from "@chakra-ui/react";
 import React from "react";
-import Logo from "../public/red-p-logo-text_dao_croped.png";
-import Image from "next/image";
 
 function Navbar() {
   return (
-    <Box as="div" display="flex" >
-      <Link color="teal.500" href="/">
-        <Image src={Logo} alt="Logo" width={100} height={100} />
-      </Link>
-     
+    <Box
+      position="sticky"
+      w="100%"
+      display="flex"
+      flexDirection="row-reverse"
+      p="5"
+      bg="linear-gradient(120deg, #155799, #159957)"
+      color="white"
+      boxShadow='outline'>
+      <Breadcrumb fontWeight="bold" fontSize="2xl" spacing="25px" separator="">
+       
+        <BreadcrumbItem >
+          <BreadcrumbLink href="/">Home</BreadcrumbLink>
+        </BreadcrumbItem>
+        <BreadcrumbItem>
+          <BreadcrumbLink href="/COURSES">Courses</BreadcrumbLink>
+        </BreadcrumbItem>
 
+        <BreadcrumbItem>
+          <BreadcrumbLink href="https://www.piaic.org/">Piaic</BreadcrumbLink>
+        </BreadcrumbItem>
 
-
-      
+        <BreadcrumbItem>
+          <BreadcrumbLink href="https://portal.piaic.org/signup">
+            Student Portal
+          </BreadcrumbLink>
+        </BreadcrumbItem>
+        </Breadcrumb>
+  
     </Box>
   );
 }

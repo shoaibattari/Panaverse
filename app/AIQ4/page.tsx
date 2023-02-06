@@ -4,6 +4,7 @@ import React from "react";
 
 import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/react";
+import Dummy from "@/components/Courses/Dummy";
 
 function AIQ4() {
   return (
@@ -23,6 +24,7 @@ function AIQ4() {
           Course Description:
         </Text>
       </Box>
+      <Dummy />
     </>
   );
 }
