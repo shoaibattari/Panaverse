@@ -2,8 +2,15 @@
 
 import React from "react";
 
-import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
-import { Link } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  LinkBox,
+  Text,
+  useColorModeValue,
+  Button,
+} from "@chakra-ui/react";
+import Link from "next/link";
 
 function Q1Detail() {
   return (
@@ -186,7 +193,7 @@ function Q1Detail() {
             </Link>
           </Heading>
         </LinkBox>
-       
+
         <br />
         <LinkBox
           as="article"
@@ -204,7 +211,7 @@ function Q1Detail() {
         </LinkBox>
         <br />
         <Text fontSize="2xl" align="center" color="green.500">
-        Fundamentals of Version Control with Git (Recorded Videos)
+          Fundamentals of Version Control with Git (Recorded Videos)
         </Text>
         <br />
         <LinkBox
@@ -217,12 +224,51 @@ function Q1Detail() {
         >
           <Heading size="md" my="3">
             <Link href="https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF">
-            Version Control using Git and GitHub By Sir Zeeshan Hanif (Watch Recorded Videos)
+              Version Control using Git and GitHub By Sir Zeeshan Hanif (Watch
+              Recorded Videos)
             </Link>
           </Heading>
         </LinkBox>
-        
-    
+        <Box display='flex' justifyContent='space-around' p='5' >
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/">
+             Back To Home
+            </Link>
+          </Button>
+
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/Q2Detail">
+            Go To Q2
+            </Link>
+          </Button>
+
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/COURSES">
+             Back To All Courses
+            </Link>
+          </Button>
+        </Box>
       </Box>
     </>
   );

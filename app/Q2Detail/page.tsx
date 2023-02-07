@@ -2,8 +2,15 @@
 
 import React from "react";
 
-import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
-import { Link } from "@chakra-ui/react";
+import {
+  Box,
+  Heading,
+  LinkBox,
+  Text,
+  useColorModeValue,
+  Button,
+} from "@chakra-ui/react";
+import Link from "next/link";
 
 function Q2Detail() {
   return (
@@ -350,7 +357,7 @@ function Q2Detail() {
         >
           <Heading size="md" my="3">
             <Link href="https://github.com/panaverse/learn-multicloud-api-development">
-              Learn Multicloud Serverless API Development using CDK Terraform in  
+              Learn Multicloud Serverless API Development using CDK Terraform in
               Baby Steps
             </Link>
           </Heading>
@@ -418,6 +425,46 @@ function Q2Detail() {
             </Link>
           </Heading>
         </LinkBox>
+        <Box display="flex" justifyContent="space-around" p="5">
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/">
+              Back To Home
+            </Link>
+          </Button>
+
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/Q1Detail">
+              Back To Q1 Detail
+            </Link>
+          </Button>
+
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/COURSES">
+              Back To All Courses
+            </Link>
+          </Button>
+        </Box>
       </Box>
     </>
   );

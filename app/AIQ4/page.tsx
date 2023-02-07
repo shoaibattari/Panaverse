@@ -2,8 +2,8 @@
 
 import React from "react";
 
-import { Box, Heading, LinkBox, Text } from "@chakra-ui/react";
-import { Link } from "@chakra-ui/react";
+import { Box, Button, useColorModeValue,Text } from "@chakra-ui/react";
+import Link from "next/link";
 import Dummy from "@/components/Courses/Dummy";
 
 function AIQ4() {
@@ -25,6 +25,46 @@ function AIQ4() {
         </Text>
       </Box>
       <Dummy />
+      <Box boxSize="3xl" ml="25%" p="5" display="flex" justifyContent="space-around"  mt="2200">
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/">
+              Back To Home
+            </Link>
+          </Button>
+
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/AIQ3">
+            Back To Artificial Intelligence Q3 Detail
+            </Link>
+          </Button>
+
+          <Button
+            textColor="blue.500"
+            type="button"
+            _hover={{
+              textDecoration: "none",
+              bg: useColorModeValue("blue.900", "blue.200"),
+            }}
+          >
+            <Link color="teal.500" href="/COURSES">
+              Back To All Courses
+            </Link>
+          </Button>
+        </Box>
     </>
   );
 }
