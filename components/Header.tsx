@@ -3,8 +3,7 @@ import { Box, Text } from "@chakra-ui/react";
 
 function Header() {
   return (
-    // <Box bg="linear-gradient(120deg, #155799, #159957)" h="480px" p={"70px"}>
-    <Box bg="linear-gradient(120deg, #155799, #159957)" h="480px" p={"70px"}>
+      <Box bg="linear-gradient(120deg, #155799, #159957)" h="480px" p={"70px"}>
       <Text
         fontWeight="bold"
         fontSize="6xl"

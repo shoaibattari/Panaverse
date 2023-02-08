@@ -1,7 +1,6 @@
 "use client";
 
 import ALL from "@/components/Courses/All";
-import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Tagline from "@/components/Tagline";
 import { Box } from "@chakra-ui/react";
@@ -12,6 +11,7 @@ export default function page() {
       <Header />/
       <Tagline />
       <ALL />
+     
     </Box>
     </>
   );
