@@ -8,10 +8,9 @@ import { Box } from "@chakra-ui/react";
 export default function page() {
   return (<>
     <Box as="div">
-      <Header />/
+      <Header />
       <Tagline />
-      <ALL />
-     
+      {/* <ALL /> */}
     </Box>
     </>
   );
