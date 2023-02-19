@@ -17,105 +17,117 @@ import React from "react";
 
 function ALL() {
   return (
-  
-      <Box boxSize="3xl" ml="25%" p="5" mt="20">
-        <Text
-          bg="linear-gradient(120deg, #155799, #159957)"
-          fontSize="3xl"
-          align="center"
-          textColor="gray.200"
-          borderRadius="20"
-        >
-          Core Courses (Common in All Specializations)
-        </Text>
-        <Text
-          boxSize="3xl"
-          ml="auto"
-          p="5"
-          mt="2"
-          fontSize="2xl"
-          align="left"
-          textColor="gray.600"
-        >
-          Every participant of the program will start by completing the
-          following two core courses:
-        </Text>
+    <Box
+      boxSize={{ lg: "3xl", md: "2xl" }}
+      ml={{ lg: "25%", base: "0%" }}
+      p="5"
+      mt={{ lg: "24",md:'24', base: "1" }}
+    >
+      <Text
+        bg="linear-gradient(120deg, #155799, #159957)"
+        fontSize={{ lg: "3xl", md: "2xl", base: "sm" }}
+        align={"center"}
+        // fontSize="3xl"
+        // align="center"
+        textColor="gray.200"
+        borderRadius="20"
+      >
+        Core Courses (Common in All Specializations)
+      </Text>
+      <Text
+        boxSize={{md:"3xl"}}
+        ml="auto"
+        p="5"
+        mt="2"
+        fontSize={{ lg: "3xl", md: "2xl", base: "sm" }}
+        align="left"
+        textColor="gray.600"
+      >
+        Every participant of the program will start by completing the following
+        two core courses:
+      </Text>
 
-        <SimpleGrid
-          mt="-620"
-          spacing={0.2}
-          templateColumns="repeat(auto-fill, minmax(250px, 1fr))"
-        >
-          <Card>
-            <CardHeader>
-              <Heading textColor="green.600" size="md">
-                Quarter I (Core) CS-101: Object-Oriented Programming using
-                TypeScript
-              </Heading>
-            </CardHeader>
-            <CardBody></CardBody>
-            <CardFooter>
-              <Button
-                textColor="blue.500"
-                type="button"
-                _hover={{
-                  textDecoration: "none",
-                  bg: useColorModeValue("blue.900", "blue.200"),
-                }}
-              >
-                <Link color="teal.500" href="/Q1Detail">
-                  Detailed Course Syllabus
-                </Link>
-              </Button>
-            </CardFooter>
-          </Card>
-          <Card>
-            <CardHeader>
-              <Heading size="md" textColor="green.600">
-                Quarter II (Core) W2-201: Developing Planet-Scale Web 2.0
-                Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud
-                Development Kit (CDK) for Terraform
-              </Heading>
-            </CardHeader>
-            <CardBody></CardBody>
-            <CardFooter>
-              <Button
-                textColor="blue.500"
-                _hover={{
-                  textDecoration: "none",
-                  bg: useColorModeValue("blue.900", "blue.200"),
-                }}
-              >
-                <Link color="teal.500" href="/Q2Detail">
-                  Detailed Course Syllabus
-                </Link>
-              </Button>
-            </CardFooter>
-          </Card>
-        </SimpleGrid>
+      <SimpleGrid
+        mt={{lg:"-620",md:-620, base:"0"}}
+        spacing={0.2}
+        templateColumns="repeat(auto-fill, minmax(250px, 1fr))"
+      >
+        <Card m="2">
+          <CardHeader>
+            <Heading textColor="green.600" size={{lg:"md", base:"S"}}>
+              Quarter I (Core) CS-101: Object-Oriented Programming using
+              TypeScript
+            </Heading>
+          </CardHeader>
+          <CardBody></CardBody>
+          <CardFooter>
+            <Button
+              textColor="blue.500"
+              type="button"
+              _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue("blue.900", "blue.200"),
+              }}
+            >
+              <Link color="teal.500" href="/Q1Detail">
+                Detailed Course Syllabus
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
+        <Card m="2">
+          <CardHeader>
+          <Heading textColor="green.600" size={{lg:"md", base:"S"}}>
+              Quarter II (Core) W2-201: Developing Planet-Scale Web 2.0
+              Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud
+              Development Kit (CDK) for Terraform
+            </Heading>
+          </CardHeader>
+          <CardBody></CardBody>
+          <CardFooter>
+            <Button
+              textColor="blue.500"
+              _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue("blue.900", "blue.200"),
+              }}
+            >
+              <Link color="teal.500" href="/Q2Detail">
+                Detailed Course Syllabus
+              </Link>
+            </Button>
+          </CardFooter>
+        </Card>
+      </SimpleGrid>
 
-        <Text fontSize="4xl" align="left" textColor="green.600" mt="5">
-          Specialized Tracks
-        </Text>
-        <Text
-          boxSize="3xl"
-          ml="auto"
-          p="5"
-          mt="2"
-          fontSize="2xl"
-          align="left"
-          textColor="gray.600"
-        >
-          After completing the first two quarters the participants will select
-          one or more specializations consisting of two courses each:
-        </Text>
-        <hr />
-        {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Box boxSize="3xl" p="5" mt="-70%">
-          <Box as="div" mt="-36">
+      <Text  size={{lg:"md", base:"S"}}
+       align="left" textColor="green.600" mt="5">
+        Specialized Tracks
+      </Text>
+      <Text
+        boxSize={{ lg: "3xl", md: "2xl" }}
+        ml="auto"
+        p="5"
+        mt="2"
+        fontSize={{ lg: "3xl", md: "2xl", base: "1xl" }}
+        align="left"
+        textColor="gray.600"
+      >
+        After completing the first two quarters the participants will select one
+        or more specializations consisting of two courses each:
+      </Text>
+      <hr />
+      {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      <Box 
+       boxSize={{ lg: "3xl", md: "2xl" }}
+      ml={{ base: "0%" }}
+      p="5"
+      mt={{ lg: "24",md:'24', base: "1" }}
+      >
+          <Box as="div" mt={{lg:'96', base: '0'}}>
             <Text
               bg="linear-gradient(120deg, #155799, #159957)"
-              fontSize="3xl"
+              fontSize={{ lg: "3xl", md: "2xl", base: "sm" }}
               align="center"
               textColor="gray.200"
               borderRadius="20"
@@ -123,11 +135,13 @@ function ALL() {
               Web 3.0 (Blockchain) and Metaverse Specialization
             </Text>
             <Text
-              boxSize="3xl"
+                   boxSize={{ lg: "3xl", md: "2xl" }}
+
               ml="auto"
               p="5"
-              mt="1"
-              fontSize="2xl"
+              mt={{lg:"10", base:'72'}}
+              fontSize={{ lg: "3xl", md: "2xl", base: "sm" }}
+
               align="left"
               textColor="gray.600"
             >
@@ -181,7 +195,7 @@ function ALL() {
                       bg: useColorModeValue("blue.900", "blue.200"),
                     }}
                   >
-                    {" "}
+                   
                     <Link color="teal.500" href="/BCQ4">
                       Detailed Course Syllabus
                     </Link>
@@ -191,8 +205,8 @@ function ALL() {
             </SimpleGrid>
           </Box>
         </Box>
-        {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Box boxSize="3xl" p="5" mt="-20">
+      {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* <Box boxSize="3xl" p="5" mt="-20">
           <Box as="div" mt="-48">
             <Text
               bg="linear-gradient(120deg, #155799, #159957)"
@@ -267,9 +281,9 @@ function ALL() {
               </Card>
             </SimpleGrid>
           </Box>
-        </Box>
-        {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Box boxSize="3xl" p="5" mt="-20">
+        </Box> */}
+      {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* <Box boxSize="3xl" p="5" mt="-20">
           <Box as="div" mt="-72">
             <Text
               bg="linear-gradient(120deg, #155799, #159957)"
@@ -344,9 +358,9 @@ function ALL() {
               </Card>
             </SimpleGrid>
           </Box>
-        </Box>
-        {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
-        <Box boxSize="3xl" p="5" mt="-60">
+        </Box> */}
+      {/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* <Box boxSize="3xl" p="5" mt="-60">
           <Box as="div" mt="-72">
             <Text
               bg="linear-gradient(120deg, #155799, #159957)"
@@ -409,8 +423,8 @@ function ALL() {
               </Card>
             </SimpleGrid>
           </Box>
-        </Box>
-      </Box>
+        </Box> */}
+    </Box>
   );
 }
 

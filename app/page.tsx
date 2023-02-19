@@ -10,7 +10,7 @@ export default function page() {
     <Box as="div">
       <Header />
       <Tagline />
-      {/* <ALL /> */}
+      <ALL />
     </Box>
     </>
   );
