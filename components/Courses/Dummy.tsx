@@ -46,7 +46,7 @@ function Dummy() {
     >
       <Heading size="md" my="3">
         <Link href="https://beta.reactjs.org/learn">
-          Latest Learn React Official Website{" "}
+          Latest Learn React Official Website
         </Link>
       </Heading>
     </LinkBox>
@@ -61,7 +61,7 @@ function Dummy() {
     >
       <Heading size="md" my="3">
         <Link href="https://github.com/panaverse/learn-nextjs">
-          Learn Next.js 13 Learning Repo{" "}
+          Learn Next.js 13 Learning Repo
         </Link>
       </Heading>
     </LinkBox>
@@ -334,7 +334,7 @@ function Dummy() {
       </Heading>
     </LinkBox>
     <Text fontSize="2xl" align="center" color="green.500">
-      Web 2.0 Projects{" "}
+      Web 2.0 Projects
     </Text>
     <br />
     <LinkBox
