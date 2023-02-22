@@ -11,11 +11,11 @@ function AIQ4() {
     <>
       <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
         <Text
-          fontWeight="bold"
-          fontSize="5xl"
-          align="center"
-          color="white"
-          m="10px"
+         fontWeight="bold"
+         fontSize={{ lg: "6xl", md: "2xl", base: "1xl" }} ////////
+         align="center"
+         color="white"
+         // m="10px"   ////////
         >
           Artificial Intelligence and Deep Learning Specialization Quarter 4
           <br />
@@ -25,7 +25,13 @@ function AIQ4() {
         </Text>
       </Box>
       <Dummy />
-      <Box boxSize="3xl" ml="25%" p="5" display="flex" justifyContent="space-around"  mt="2200">
+      <Box   boxSize={{ lg: "3xl", md: "2xl" }} //////
+        ml={{ lg: "25%", md: "5%", base: "0%" }} ////////////
+        p={{ lg: "5", md: "3", base: "2" }}
+        display="flex"
+        justifyContent="space-around"
+        mt={{ lg: "2400", md: "2400", base: "" }}
+      >
           <Button
             textColor="blue.500"
             type="button"
@@ -35,7 +41,7 @@ function AIQ4() {
             }}
           >
             <Link color="teal.500" href="/">
-              Back To Home
+             Home
             </Link>
           </Button>
 
@@ -48,7 +54,7 @@ function AIQ4() {
             }}
           >
             <Link color="teal.500" href="/AIQ3">
-            Back To Artificial Intelligence Q3 Detail
+            AI Q3
             </Link>
           </Button>
 
@@ -61,7 +67,7 @@ function AIQ4() {
             }}
           >
             <Link color="teal.500" href="/COURSES">
-              Back To All Courses
+            All Courses
             </Link>
           </Button>
         </Box>

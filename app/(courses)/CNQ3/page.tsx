@@ -12,11 +12,11 @@ function CNQ3() {
     <>
       <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
         <Text
-          fontWeight="bold"
-          fontSize="5xl"
-          align="center"
-          color="white"
-          m="10px"
+            fontWeight="bold"
+            fontSize={{ lg: "6xl", md: "2xl", base: "1xl" }} ////////
+            align="center"
+            color="white"
+            // m="10px"   ////////
         >
          Cloud-Native Computing Specialization Quarter 3
           <br />
@@ -27,7 +27,13 @@ function CNQ3() {
       </Box>
       <Dummy />
 
-      <Box boxSize="3xl" ml="25%" p="5" display="flex" justifyContent="space-around"  mt="2200">
+      <Box   boxSize={{ lg: "3xl", md: "2xl" }} //////
+        ml={{ lg: "25%", md: "5%", base: "0%" }} ////////////
+        p={{ lg: "5", md: "3", base: "2" }}
+        display="flex"
+        justifyContent="space-around"
+        mt={{ lg: "2400", md: "2400", base: "" }}
+      >
           <Button
             textColor="blue.500"
             type="button"
@@ -37,7 +43,7 @@ function CNQ3() {
             }}
           >
             <Link color="teal.500" href="/">
-              Back To Home
+           Home
             </Link>
           </Button>
 
@@ -50,7 +56,7 @@ function CNQ3() {
             }}
           >
             <Link color="teal.500" href="/CNQ4">
-              Go To Cloud-Native Computing Q4 Detail
+              CN Computing Q4
             </Link>
           </Button>
 
@@ -63,7 +69,7 @@ function CNQ3() {
             }}
           >
             <Link color="teal.500" href="/COURSES">
-              Back To All Courses
+       All Courses
             </Link>
           </Button>
         </Box>
