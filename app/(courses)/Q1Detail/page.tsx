@@ -74,7 +74,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }} ////////////
           >
             <Link href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQ3BALy86tIXICkG874wAc6">
@@ -93,7 +93,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQSWIen_zUSEBmtqzPLuRob">
@@ -119,7 +119,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://docs.google.com/presentation/d/12C1s4UBTlR9nZNEkRE6aAuGeRA3s92jx-8nJKo9jdH4/edit">
@@ -138,7 +138,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://docs.google.com/presentation/d/1FSbr9aJwO0-fmZHqWy_eHO2N_jwJLmQCy4cG8rd4ctw/edit">
@@ -164,7 +164,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://docs.google.com/presentation/d/1ADk87hQ0Etr2PfmN9XH7TQ0CHl6XSP_7JWNUbzPdDNc/edit">
@@ -190,7 +190,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://www.youtube.com/playlist?list=PLKvqnz8z1zWQdc0NSLknxmxBch5gLOqyo">
@@ -209,7 +209,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://github.com/panaverse/typescript-node-projects/blob/main/getting-started-exercises.md">
@@ -236,7 +236,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://github.com/panaverse/learn-typescript">
@@ -255,7 +255,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://github.com/panaverse/typescript-node-projects">
@@ -275,7 +275,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://profy.dev/article/react-typescript">
@@ -302,7 +302,7 @@ function Q1Detail() {
         >
           <Heading
             size="md"
-            my="3"
+            my={{lg:"2", md:"2" , base:"0"}}
             fontSize={{ lg: "2xl", md: "2xl", base: "2xs" }}
           >
             <Link href="https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF">
@@ -315,7 +315,7 @@ function Q1Detail() {
         <Box
           display="flex"
           justifyContent="space-between"
-          p="5"
+          p="2"
         >
        
           <Button
