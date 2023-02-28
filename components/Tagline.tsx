@@ -2,6 +2,7 @@ import { Box, Image, LinkBox, Text, Button } from "@chakra-ui/react";
 import React from "react";
 import NextLink from "next/link";
 import ALL from "./Courses/All";
+import panaverseImage from "../public/Logo.png"
 
 function Tagline() {
   return (
@@ -21,6 +22,7 @@ function Tagline() {
         alt="panaverse-logo "
         w="650px"
       />
+      
       <Text
         fontSize={{ lg: "3xl", md: "2xl", base: "1xl" }}
         textColor="green.500"

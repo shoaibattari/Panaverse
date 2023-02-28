@@ -43,8 +43,7 @@ function ALL() {
         align="left"
         textColor="gray.600"
       >
-        Every participant of the program will start by completing the following
-        two core courses:
+        Every participant of the program will start by completing the following two core courses:
       </Text>
 
       <SimpleGrid
@@ -315,8 +314,7 @@ function ALL() {
             align="left"
             textColor="gray.600"
           >
-            The Cloud-Native Computing Specialization focuses on Containers,
-            Kubernetes, and CDK for Kubernetes.
+            The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes.
           </Text>
 
           <SimpleGrid

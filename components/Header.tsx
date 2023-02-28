@@ -7,7 +7,7 @@ function Header() {
        p={"60px"}>
       <Text
         fontWeight="bold"
-        fontSize={{lg: "6xl", md: '2xl',  base: "1xl"  }}
+        fontSize={{lg: "6xl", md: '3xl',  base: "1xl"  }}
         align="center"
         color="white"
         m="10px"
