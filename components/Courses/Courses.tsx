@@ -23,13 +23,11 @@ function Test() {
       mt={{ lg: "24", md: "24", base: "1" }}
     >
       {cards.map((elem) => (
-        <Box as="div"
-         mt={{ lg: "10", base: "0" }}
-         >
+        <Box as="div" mt={{ lg: "10", base: "0" }} key={elem.id}>
           <Text
             bg="linear-gradient(120deg, #155799, #159957)"
             fontSize={{ lg: "3xl", md: "2xl", base: "sm" }}
-            align="center"
+            align="center"  
             textColor="gray.200"
             borderRadius="20"
           >
@@ -39,7 +37,6 @@ function Test() {
             boxSize={{ lg: "3xl", md: "2xl" }}
             ml="auto"
             p="5"
-            // mt={{ lg: "10" }}
             fontSize={{ lg: "3xl", md: "lg", base: "sm" }}
             align="left"
             textColor="gray.600"
