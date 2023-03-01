@@ -58,12 +58,11 @@ function Test() {
               <CardBody></CardBody>
               <CardFooter>
                 <Button
-                  textColor="blue.500"
+                 bg="linear-gradient(120deg, #155799, #159957)"
+                   colorScheme='blue'
+                   textColor="white"
                   type="button"
-                  _hover={{
-                    textDecoration: "none",
-                    bg: useColorModeValue("blue.900", "blue.200"),
-                  }}
+                  
                 >
                   <Link color="teal.500" href={elem.card1Link}>
                     Detailed Course Syllabus
@@ -80,11 +79,10 @@ function Test() {
               <CardBody></CardBody>
               <CardFooter>
                 <Button
-                  textColor="blue.500"
-                  _hover={{
-                    textDecoration: "none",
-                    bg: useColorModeValue("blue.900", "blue.200"),
-                  }}
+                bg="linear-gradient(120deg, #155799, #159957)"
+                colorScheme='blue'
+                textColor="white"
+               type="button"
                 >
                   <Link color="teal.500" href={elem.card2Link}>
                     Detailed Course Syllabus
