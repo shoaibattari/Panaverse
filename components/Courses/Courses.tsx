@@ -9,16 +9,15 @@ import {
   Heading,
   SimpleGrid,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { cards } from "../../components/Courses/Database";
 
-function Test() {
+function Courses() {
   return (
     <Box
       boxSize={{ lg: "3xl", md: "2xl" }}
-      ml={{ lg: "25%", base: "0%" }}
+      ml={{ lg: "25%",md:"5%", base: "0%" }}
       p="5"
       mt={{ lg: "24", md: "24", base: "1" }}
     >
@@ -81,7 +80,7 @@ function Test() {
                 <Button
                 bg="linear-gradient(120deg, #155799, #159957)"
                 colorScheme='blue'
-                textColor="white"
+                textColor="white" 
                type="button"
                 >
                   <Link color="teal.500" href={elem.card2Link}>
@@ -97,4 +96,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Courses;
