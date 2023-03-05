@@ -17,7 +17,7 @@ function Courses() {
   return (
     <Box
       boxSize={{ lg: "3xl", md: "2xl" }}
-      ml={{ lg: "25%",md:"5%", base: "0%" }}
+      ml={{ lg: "25%",md:"5%", base: "5%" }}
       p="5"
       mt={{ lg: "24", md: "24", base: "1" }}
     >
