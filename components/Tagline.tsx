@@ -8,7 +8,7 @@ function Tagline() {
   return (
     <Box
       boxSize={{ lg: "3xl", md: "2xl" }}
-      ml={{ lg: "25%", md: "5%", base: "5%" }}
+      ml={{ xl:"25%",lg: "15%", md: "5%", base: "0%" }}
       p="5"
     >
       <Text
