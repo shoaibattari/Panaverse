@@ -17,7 +17,9 @@ function page() {
           ALL COURSES DETAILS
         </Text>
       </Box>
-      <Box mt={{lg:'-32', md:"-24", base:"0"}}>
+      <Box 
+      // mt={{lg:'-32', md:"-24", base:"0"}}
+      >
      <Courses/>
      </Box>
     </div>
