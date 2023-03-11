@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Text } from "@chakra-ui/react";
 
-function Header() {
+function  Header() {
   return (
       <Box bg="linear-gradient(120deg, #155799, #159957)" h="auto"
        p={"60px"}>
@@ -11,6 +11,7 @@ function Header() {
         align="center"
         color="white"
         m="10px"
+        
       >
         Certified Web 3.0 and Metaverse Developer:
         A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar

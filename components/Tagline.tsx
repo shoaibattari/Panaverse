@@ -7,23 +7,31 @@ import PanaLogo from "../public/Logo.png";
 function Tagline() {
   return (
     <Box
-      boxSize={{ lg: "3xl", md: "2xl" }}
-      ml={{ xl:"25%",lg: "15%", md: "5%", base: "0%" }}
+      // boxSize={{ lg: "3xl", md: "2xl" }}
+      // ml={{ xl:"25%",lg: "15%", md: "5%", base: "0%" }}
+      ml={{ xl: "4%", lg: "1%", md: "1%", base: "0%" }}
       p="5"
     >
       <Text
-        fontSize={{ lg: "3xl", md: "2xl", base: "1xl" }}
+        fontSize={{ lg: "5xl", md: "4xl", base: "2xl" }}
         align={{ lg: "center", md: "center", base: "left" }}
         textColor="green.500"
       >
         Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
         Karachi, Lahore, Islamabad, and Peshawar
       </Text>
-      <Image src={PanaLogo} alt="panaverse-logo" />
+      <Image
+        src={PanaLogo}
+        alt="panaverse-logo"
+        style={{
+          margin: "auto",
+        }}
+      />
 
       <Text
-        fontSize={{ lg: "3xl", md: "2xl", base: "1xl" }}
+        fontSize={{ lg: "3xl", md: "2xl", base: "2xl" }}
         textColor="green.500"
+        align={{ lg: "center", md: "center", base: "left" }}
         p="3"
       >
         The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
@@ -35,8 +43,9 @@ function Tagline() {
       <LinkBox as="article">
         <NextLink href="https://www.piaic.org/">
           <Text
-            fontSize={{ lg: "3xl", md: "2xl", base: "1xl" }}
+            fontSize={{ lg: "3xl", md: "2xl", base: "2xl" }}
             textColor="blue.500"
+            align={{ lg: "center", md: "center", base: "left" }}
             p="3"
           >
             Admissions Now Open in Karachi, Lahore, Islamabad, and Peshawar

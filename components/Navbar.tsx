@@ -24,7 +24,9 @@ export default function Header() {
         boxShadow="lg" m={1}>
         <Container maxW={1400}>
           <SimpleGrid templateColumns="repeat(3, 1fr)">
-            <Box>
+            <Box
+            
+              >
               <Link href="/">
                 <Image src={png} alt="panaverse-logo" width="100"></Image>
               </Link>
