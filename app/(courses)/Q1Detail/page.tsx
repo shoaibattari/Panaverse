@@ -38,7 +38,7 @@ function Q1Detail() {
         p={{ lg: "5", md: "3", base: "2" }} /////////////
       >
         <Text
-          fontSize={{ lg: "2xl", md: "1xl", base: "small" }} /////////////
+          fontSize={{ lg: "2xl", md: "2xl", base: "1xl" }} /////////////
           textColor="green.500"
           p={{ lg: "3", md: "1", base: "1" }}
         >

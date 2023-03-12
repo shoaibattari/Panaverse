@@ -10,6 +10,8 @@ import {
   SimpleGrid,
   Text,
   Flex,
+  Divider,
+  background,
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { cards } from "../../components/Courses/Database";
@@ -45,26 +47,38 @@ function Courses() {
           >
             {elem.headingText}
           </Text>
+
           <Flex>
             <SimpleGrid
               // mt={{ lg: "-520", md: "-500", base: "0" }}
               spacing={0.4}
               templateColumns={{
-                md: "repeat(auto-fill, minmax(300px, 1fr))",
-                lg: "repeat(auto-fill, minmax(400px, 1fr))",
-                xl: "repeat(auto-fill, minmax(500px, 1fr))",
+                // md: "repeat(auto-fill, minmax(25%, 1fr))",
+                md: "  repeat(2, 1fr)",
+                // lg: "repeat(auto-fill, minmax(25%, 1fr))",
+                lg: "  repeat(2, 1fr)",
+                // xl: "repeat(auto-fill, minmax(25%, 1fr))",
+                xl: "  repeat(2, 1fr)",
               }}
             >
-              <Card m="4">
+              <Card
+                m="4"
+                border="2px"
+                borderColor="green.600"
+                borderTopRadius="80"
+                boxShadow={"dark-lg"}
+              >
                 <CardHeader>
                   <Heading
                     textColor="green.600"
                     size={{ lg: "lg", base: "md" }}
+                    mt="25"
                   >
                     {elem.card1Heading}
                   </Heading>
                 </CardHeader>
                 <CardBody></CardBody>
+
                 <CardFooter>
                   <Button
                     bg="linear-gradient(120deg, #155799, #159957)"
@@ -78,11 +92,18 @@ function Courses() {
                   </Button>
                 </CardFooter>
               </Card>
-              <Card m="4">
+              <Card
+                m="4"
+                border="2px"
+                borderColor="green.600"
+                borderTopRadius="80"
+                boxShadow={"dark-lg"}
+              >
                 <CardHeader>
                   <Heading
                     textColor="green.600"
                     size={{ lg: "lg", base: "md" }}
+                    mt="25"
                   >
                     {elem.card2Heading}
                   </Heading>

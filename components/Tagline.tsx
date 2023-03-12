@@ -16,6 +16,7 @@ function Tagline() {
         fontSize={{ lg: "5xl", md: "4xl", base: "2xl" }}
         align={{ lg: "center", md: "center", base: "left" }}
         textColor="green.500"
+        as='b'
       >
         Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
         Karachi, Lahore, Islamabad, and Peshawar
@@ -33,6 +34,7 @@ function Tagline() {
         textColor="green.500"
         align={{ lg: "center", md: "center", base: "left" }}
         p="3"
+        as='b'
       >
         The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
         Panaverse DAO is a movement to spread these technolgies globally. It is
