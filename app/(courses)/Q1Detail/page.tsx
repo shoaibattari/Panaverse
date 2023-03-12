@@ -38,11 +38,10 @@ function Q1Detail() {
         p={{ lg: "5", md: "3", base: "2" }} /////////////
       >
         <Text
-          fontSize={{ lg: "2xl", md: "2xl", base: "1xl" }} /////////////
+          fontSize={{ lg: "2xl", md: "1xl", base: "small" }} /////////////
           textColor="green.500"
           p={{ lg: "3", md: "1", base: "1" }}
         >
-          {" "}
           {/* ///////////// */}
           We will start the program by learning the fundamentals of
           Object-Oriented programming using JavaScript and TypeScript. We will

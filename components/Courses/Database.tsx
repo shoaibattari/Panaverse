@@ -1,4 +1,16 @@
-export const cards = [
+interface cards {
+  id: number,
+  heading1: string,
+  headingText:string,
+  card1Heading:string,
+  card1Link:string,
+  card2Heading:string,
+  card2Link:string
+}
+
+
+
+export const cards:cards[] = [
   {
     id: 1,
     heading1: "Core Courses (Common in All Specializations)",
