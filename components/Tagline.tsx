@@ -13,9 +13,9 @@ function Tagline() {
       p="5"
     >
       <Text
-        fontSize={{ lg: "5xl", md: "4xl", base: "2xl" }}
-        align={{ lg: "center", md: "center", base: "left" }}
+      fontSize={{ lg: "3xl", md: "2xl", base: "2xl" }}
         textColor="green.500"
+        align={{ lg: "center", md: "center", base: "left" }}
         as='b'
       >
         Certified Web 3.0 and Metaverse Developer: A Nationwide Program in
@@ -33,7 +33,6 @@ function Tagline() {
         fontSize={{ lg: "3xl", md: "2xl", base: "2xl" }}
         textColor="green.500"
         align={{ lg: "center", md: "center", base: "left" }}
-        p="3"
         as='b'
       >
         The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
@@ -48,7 +47,6 @@ function Tagline() {
             fontSize={{ lg: "3xl", md: "2xl", base: "2xl" }}
             textColor="blue.500"
             align={{ lg: "center", md: "center", base: "left" }}
-            p="3"
           >
             Admissions Now Open in Karachi, Lahore, Islamabad, and Peshawar
           </Text>

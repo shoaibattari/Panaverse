@@ -25,12 +25,9 @@ function CNQ4() {
         </Text>
       </Box>
       <Dummy />
-      <Box boxSize={{ lg: "3xl", md: "2xl" }} //////
-        ml={{ lg: "25%", md: "5%", base: "0%" }} ////////////
-        p={{ lg: "5", md: "3", base: "2" }}
+      <Box
         display="flex"
         justifyContent="space-around"
-        mt={{ lg: "2400", md: "2400", base: "" }}
       >
           <Button
             textColor="blue.500"
