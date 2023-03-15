@@ -81,7 +81,7 @@ function Q1Detail() {
                     borderTopRadius="80"
                     boxShadow={"dark-lg"}
                     bgColor="gray.100"
-                    >
+                  >
                     <CardHeader>
                       <Heading
                         textColor="green"
@@ -114,12 +114,11 @@ function Q1Detail() {
 
           <Box display="flex" justifyContent="space-around" p="2">
             <Button
-              textColor="blue.500"
+              bg="linear-gradient(120deg, #155799, #159957)"
+              colorScheme="blue"
+              textColor="white"
               type="button"
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("blue.900", "blue.200"),
-              }}
+              borderRadius={100}
             >
               <Link color="teal.500" href="/">
                 Home
@@ -127,12 +126,11 @@ function Q1Detail() {
             </Button>
 
             <Button
-              textColor="blue.500"
+              bg="linear-gradient(120deg, #155799, #159957)"
+              colorScheme="blue"
+              textColor="white"
               type="button"
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("blue.900", "blue.200"),
-              }}
+              borderRadius={100}
             >
               <Link color="teal.500" href="/Q2Detail">
                 Q2
@@ -140,12 +138,11 @@ function Q1Detail() {
             </Button>
 
             <Button
-              textColor="blue.500"
+              bg="linear-gradient(120deg, #155799, #159957)"
+              colorScheme="blue"
+              textColor="white"
               type="button"
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("blue.900", "blue.200"),
-              }}
+              borderRadius={100}
             >
               <Link color="teal.500" href="/COURSES">
                 All Courses

@@ -11,7 +11,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 import Link from "next/link";
-import Dummy from "../../../components/Courses/Dummy"
+import Dummy from "../../../components/Courses/Dummy";
 
 function Q2Detail() {
   return (
@@ -65,12 +65,11 @@ function Q2Detail() {
 
           <Box display="flex" justifyContent="space-around" p="2">
             <Button
-              textColor="blue.500"
+              bg="linear-gradient(120deg, #155799, #159957)"
+              colorScheme="blue"
+              textColor="white"
               type="button"
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("blue.900", "blue.200"),
-              }}
+              borderRadius={100}
             >
               <Link color="teal.500" href="/">
                 Home
@@ -78,12 +77,11 @@ function Q2Detail() {
             </Button>
 
             <Button
-              textColor="blue.500"
+              bg="linear-gradient(120deg, #155799, #159957)"
+              colorScheme="blue"
+              textColor="white"
               type="button"
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("blue.900", "blue.200"),
-              }}
+              borderRadius={100}
             >
               <Link color="teal.500" href="/Q1Detail">
                 Q1
@@ -91,12 +89,11 @@ function Q2Detail() {
             </Button>
 
             <Button
-              textColor="blue.500"
+              bg="linear-gradient(120deg, #155799, #159957)"
+              colorScheme="blue"
+              textColor="white"
               type="button"
-              _hover={{
-                textDecoration: "none",
-                bg: useColorModeValue("blue.900", "blue.200"),
-              }}
+              borderRadius={100}
             >
               <Link color="teal.500" href="/COURSES">
                 All Courses

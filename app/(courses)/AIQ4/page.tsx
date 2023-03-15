@@ -2,75 +2,68 @@
 
 import React from "react";
 
-import { Box, Button, useColorModeValue,Text } from "@chakra-ui/react";
+import { Box, Button, useColorModeValue, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import Dummy from "@/components/Courses/Dummy";
 
 function AIQ4() {
   return (
     <>
-    <Box maxW={1400} ml={{ xl: "4%", lg: "1%", md: "1%", base: "0%" }} p="5">
-
-      <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
-        <Text
-         fontWeight="bold"
-         fontSize={{ lg: "6xl", md: "2xl", base: "1xl" }} ////////
-         align="center"
-         color="white"
-         // m="10px"   ////////
-        >
-          Artificial Intelligence and Deep Learning Specialization Quarter 4
-          <br />
-          Duration: 13 Weeks
-          <br />
-          Course Description:
-        </Text>
-      </Box>
-      <Dummy />
-      </Box>
-      <Box
-        display="flex"
-        justifyContent="space-around"
-      >
-          <Button
-            textColor="blue.500"
-            type="button"
-            _hover={{
-              textDecoration: "none",
-              bg: useColorModeValue("blue.900", "blue.200"),
-            }}
+      <Box maxW={1400} ml={{ xl: "4%", lg: "1%", md: "1%", base: "0%" }} p="5">
+        <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
+          <Text
+            fontWeight="bold"
+            fontSize={{ lg: "6xl", md: "2xl", base: "1xl" }} ////////
+            align="center"
+            color="white"
+            // m="10px"   ////////
           >
-            <Link color="teal.500" href="/">
-             Home
-            </Link>
-          </Button>
-
-          <Button
-            textColor="blue.500"
-            type="button"
-            _hover={{
-              textDecoration: "none",
-              bg: useColorModeValue("blue.900", "blue.200"),
-            }}
-          >
-            <Link color="teal.500" href="/AIQ3">
-            AI Q3
-            </Link>
-          </Button>
-
-          <Button
-            textColor="blue.500"
-            type="button"
-            _hover={{
-              textDecoration: "none",
-              bg: useColorModeValue("blue.900", "blue.200"),
-            }}
-          >
-            <Link color="teal.500" href="/COURSES">
-            All Courses
-            </Link>
-          </Button>
+            Artificial Intelligence and Deep Learning Specialization Quarter 4
+            <br />
+            Duration: 13 Weeks
+            <br />
+            Course Description:
+          </Text>
         </Box>
+        <Dummy />
+      </Box>
+      <Box display="flex" justifyContent="space-around">
+        <Button
+          bg="linear-gradient(120deg, #155799, #159957)"
+          colorScheme="blue"
+          textColor="white"
+          type="button"
+          borderRadius={100}
+        >
+          <Link color="teal.500" href="/">
+            Home
+          </Link>
+        </Button>
+
+        <Button
+          bg="linear-gradient(120deg, #155799, #159957)"
+          colorScheme="blue"
+          textColor="white"
+          type="button"
+          borderRadius={100}
+        >
+          <Link color="teal.500" href="/AIQ3">
+            AI Q3
+          </Link>
+        </Button>
+
+        <Button
+          bg="linear-gradient(120deg, #155799, #159957)"
+          colorScheme="blue"
+          textColor="white"
+          type="button"
+          borderRadius={100}
+        >
+          <Link color="teal.500" href="/COURSES">
+            All Courses
+          </Link>
+        </Button>
+      </Box>
     </>
   );
 }

@@ -9,66 +9,59 @@ import Dummy from "@/components/Courses/Dummy";
 function AIQ3() {
   return (
     <>
-<Box maxW={1400} ml={{ xl: "4%", lg: "1%", md: "1%", base: "0%" }} p="5">
-    
-      <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
-        <Text
-          fontWeight="bold"
-          fontSize={{ lg: "6xl", md: "2xl", base: "1xl" }} ////////
-          align="center"
-          color="white"
-          // m="10px"   ////////
-        >
-          Artificial Intelligence and Deep Learning Specialization Quarter 3
-          <br />
-          Duration: 13 Weeks
-          <br />
-          Course Description:
-        </Text>
-      </Box>
-      <Dummy />
+      <Box maxW={1400} ml={{ xl: "4%", lg: "1%", md: "1%", base: "0%" }} p="5">
+        <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
+          <Text
+            fontWeight="bold"
+            fontSize={{ lg: "6xl", md: "2xl", base: "1xl" }} ////////
+            align="center"
+            color="white"
+            // m="10px"   ////////
+          >
+            Artificial Intelligence and Deep Learning Specialization Quarter 3
+            <br />
+            Duration: 13 Weeks
+            <br />
+            Course Description:
+          </Text>
+        </Box>
+        <Dummy />
       </Box>
 
-      <Box
-        display="flex"
-        justifyContent="space-around"
-      >
-        <Button 
-          textColor="blue.500"
+      <Box display="flex" justifyContent="space-around">
+        <Button
+          bg="linear-gradient(120deg, #155799, #159957)"
+          colorScheme="blue"
+          textColor="white"
           type="button"
-          _hover={{
-            textDecoration: "none",
-            bg: useColorModeValue("blue.900", "blue.200"),
-          }}
+          borderRadius={100}
         >
           <Link color="teal.500" href="/">
-          Home
+            Home
           </Link>
         </Button>
 
         <Button
-          textColor="blue.500"
+          bg="linear-gradient(120deg, #155799, #159957)"
+          colorScheme="blue"
+          textColor="white"
           type="button"
-          _hover={{
-            textDecoration: "none",
-            bg: useColorModeValue("blue.900", "blue.200"),
-          }}
+          borderRadius={100}
         >
           <Link color="teal.500" href="/AIQ4">
-         AI Q4
+            AI Q4
           </Link>
         </Button>
 
         <Button
-          textColor="blue.500"
+          bg="linear-gradient(120deg, #155799, #159957)"
+          colorScheme="blue"
+          textColor="white"
           type="button"
-          _hover={{
-            textDecoration: "none",
-            bg: useColorModeValue("blue.900", "blue.200"),
-          }}
+          borderRadius={100}
         >
           <Link color="teal.500" href="/COURSES">
-      All Courses
+            All Courses
           </Link>
         </Button>
       </Box>
