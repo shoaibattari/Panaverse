@@ -16,6 +16,7 @@ import {
   CardBody,
   CardFooter,
   Spacer,
+  Grid,
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { Q1DetailData } from "../../app/(courses)/Q1Detail/Q1DetailData";
@@ -23,8 +24,15 @@ import { Q1DetailData } from "../../app/(courses)/Q1Detail/Q1DetailData";
 function Q1Detail() {
   return (
     <>
-      {" "}
-      <Box display="flex" flexWrap={"wrap"} justifyContent="space-evenly">
+      <Box>
+            <Grid
+              templateColumns={{
+                lg: "repeat(3, 1fr)",
+                md: "repeat(2, 1fr)",
+                base: "repeat(1, 1fr)",
+              }}
+              gap={5}
+            >
         {Q1DetailData.map((ele) => (
           <Box as="div" mt={{ lg: "2", base: "0" }} key={ele.id}>
             <Card
@@ -62,6 +70,7 @@ function Q1Detail() {
             </Card>
           </Box>
         ))}
+        </Grid>
       </Box>
     </>
   );
