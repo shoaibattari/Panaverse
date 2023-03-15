@@ -9,6 +9,7 @@ import Dummy from "@/components/Courses/Dummy";
 function BlockchainQ4() {
   return (
     <>
+<Box maxW={1400} ml={{ xl: "4%", lg: "1%", md: "1%", base: "0%" }} p="5">
       <Box bg="linear-gradient(120deg, #155799, #159957)" p={"70px"}>
         <Text
           fontWeight="bold"
@@ -26,6 +27,7 @@ function BlockchainQ4() {
         </Text>
       </Box>
       <Dummy />
+      </Box>
       
       <Box
         display="flex"
