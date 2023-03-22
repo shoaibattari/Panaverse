@@ -87,6 +87,7 @@ function Q1Detail() {
                         textColor="green"
                         size={{ lg: "lg", base: "md" }}
                         mt="25"
+                        h={"110"}
                       >
                         {ele.Heading}
                       </Heading>
@@ -100,6 +101,7 @@ function Q1Detail() {
                         textColor="white"
                         type="button"
                         borderRadius={100}
+                        
                       >
                         <Link color="teal.500" href={ele.Link}>
                           Go TO LEARN
